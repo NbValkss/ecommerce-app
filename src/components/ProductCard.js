@@ -17,7 +17,7 @@ const ProductCard = (props) => {
   
 
   <div 
-         className={` ${location.pathname == "/store" ? `gr-${grid}` : "col-3"} `}>
+         className={` ${location.pathname === "/store" ? `gr-${grid}` : "col-3"} `}>
          <Link to=":id" className="product-card position-relative noline">
             <div className="wish-icon position-absolute">
              <button className="border-0 bg-transparent">
@@ -25,8 +25,8 @@ const ProductCard = (props) => {
              </button>
              </div>
          <div className="product-image">
-            <img src={watch} className="img-fluid" alt="product image"/>
-            <img src={watch1} className="watch-1 img-fluid" alt="product image"/>
+            <img src={watch} className="img-fluid" alt="product"/>
+            <img src={watch1} className="watch-1 img-fluid" alt="product"/>
          </div>
          <div className="product-details">
             <h6 className="brand">Havels</h6>
@@ -40,7 +40,7 @@ const ProductCard = (props) => {
              edit={false} 
              activeColor="#ffd700"/>
              
-             <p className={ `description ${grid == 12 ? "d-block" : "d-none"}`}>
+             <p className={ `description ${grid === 12 ? "d-block" : "d-none"}`}>
                At vero eos et accusamus et iusto odio dignissimos ducimus qui
                blandititiis praesentium voluptatum delenti atque currupti quos
                dolores et quas molestias exepturi sint occaecati cupiditate 
@@ -70,7 +70,7 @@ const ProductCard = (props) => {
         </div>
 
         <div 
-         className={` ${location.pathname == "/store" ? `gr-${grid}` : "col-3"} `}>
+         className={` ${location.pathname === "/store" ? `gr-${grid}` : "col-3"} `}>
          <Link className="product-card position-relative noline">
             <div className="wish-icon position-absolute">
              <button  className="border-0 bg-transparent">
@@ -78,8 +78,8 @@ const ProductCard = (props) => {
              </button>
              </div>
          <div className="product-image">
-            <img src={watch} className="img-fluid" alt="product image"/>
-            <img src={watch1} className="watch-1 img-fluid" alt="product image"/>
+            <img src={watch} className="img-fluid" alt="product"/>
+            <img src={watch1} className="watch-1 img-fluid" alt="product"/>
          </div>
          <div className="product-details">
             <h6 className="brand">Havels</h6>
@@ -93,7 +93,7 @@ const ProductCard = (props) => {
              edit={false} 
              activeColor="#ffd700"/>
              
-             <p className={ `description ${grid == 12 ? "d-block" : "d-none"}`}>
+             <p className={ `description ${grid === 12 ? "d-block" : "d-none"}`}>
                At vero eos et accusamus et iusto odio dignissimos ducimus qui
                blandititiis praesentium voluptatum delenti atque currupti quos
                dolores et quas molestias exepturi sint occaecati cupiditate 

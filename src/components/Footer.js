@@ -35,21 +35,21 @@ const Footer = () => {
        <address className="text-white fs-6">
         Hno : 277 Near Vill chopal, <br/> Sonipat, Haryana <br/> PinCode: 131103
        </address>
-       <a href="tel:+233 54 740 3691" className="mt-3 d-block mb-1 text-white">+233 (0) 54 740 3691</a>
-       <a href="mailto:janeralegend@gmail.com" className="mt-2 d-block mb-0 text-white">
+       <a href="youtube.com" className="mt-3 d-block mb-1 text-white">+233 (0) 54 740 3691</a>
+       <a href="youtube.com" className="mt-2 d-block mb-0 text-white">
         janeralegend@gmail.com
         </a>
         <div className="social_icons d-flex align-items-center gap-30 mt-4">
-          <a to="" className="text-white">
+          <a href="youtube.com" className="text-white">
             < BsLinkedin className="fs-4"/>
           </a>
-          <a to="" className="text-white">
+          <a href="youtube.com" className="text-white">
             <BsInstagram  className="fs-4"/>
           </a>
-          <a to="" className="text-white">
+          <a href="youtube.com" className="text-white">
             <BsGithub className="fs-4"/>
           </a>
-          <a to="" className="text-white">
+          <a href="youtube.com" className="text-white">
             <BsYoutube className="fs-4"/>
           </a>
         </div>

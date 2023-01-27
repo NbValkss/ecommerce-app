@@ -15,7 +15,7 @@ import Container from '../components/Container';
 
 const SimpleProduct = () => {
   const props = {width: 300,  height: 600, zoomWidth: 600, img: "images/watch-1.jpg"};
-const [orderedProduct, setorderedProduct ] = useState(true);
+const [orderedProduct] = useState(true);
 
 const [hasCopied, setHasCopied] = useState(false);
 async function handleCopyClick() {
@@ -62,7 +62,7 @@ async function handleCopyClick() {
                       activeColor="#ffd700"/>
                       <p className="mb-0 t-review">(2 Reviews)</p>
                 </div>
-            <a href="#review" className="review-btn noline">Write a Review</a>
+            <a href="youtube.com" className="review-btn noline">Write a Review</a>
             </div>
             <div className="border-bottom py-3">
               <div className="d-flex gap-10 align-items-center my-2">
@@ -110,10 +110,10 @@ async function handleCopyClick() {
               </div>
               <div className="d-flex align-items-center gap-15">
                 <div>
-                  <a href=""><IoIosGitCompare className="fs-5 me-2"/>Add to Compare</a>
+                  <a href="youtube.com"><IoIosGitCompare className="fs-5 me-2"/>Add to Compare</a>
                 </div>
                 <div>
-                  <a href=""><IoIosShuffle className="fs-5 me-2"/>Add to wishlist</a>
+                  <a href="youtube.com"><IoIosShuffle className="fs-5 me-2"/>Add to wishlist</a>
                 </div>
               </div>
                 </div>
@@ -172,7 +172,7 @@ async function handleCopyClick() {
                 </div>
                 {orderedProduct && (
                     <div>
-                        <a  id="review" href="" className="text-dark">Write a Review</a>
+                        <a  id="review" href="youtube.com" className="text-dark">Write a Review</a>
                     </div>
                 )}
                     </div>    
